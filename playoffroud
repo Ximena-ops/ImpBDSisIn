@@ -1,0 +1,36 @@
+  CREATE TABLE playoffround(
+    id int (16) NOT NULL,
+    team1id int (13)NOT NULL,
+    team2lol int (13) NOT NULL,
+    startTime date NOT NULL,
+    endTime date NOT NULL,
+    roundNum int (14) NOT NULL,
+    PRIMARY KEY (id, starTime  )
+);
+
+
+CREATE TABLE HockeyGamme(
+id int (16) NOT NULL,
+roundld int (13) NOT NULL,
+startTime int (13) NOT NULL,
+description date NOT NULL,
+teamiId date NOT NULL,
+team2Id int (14) NOT NULL,
+PRIMARY KEY (id, startTime)
+);
+
+
+create table GameScores(    
+id int (16) not NULL
+team1Score int (13) NOT NULL,
+team2Score int (13)
+PRIMARY KEY(id, starTime)
+);
+
+
+create table RoundStats(
+    id int (16) NOT NULL
+    numShutouts int (13) NOT NULL,
+    goalLeaderld int (13) NOT NULL,
+    assistLeaderld ()
+);
